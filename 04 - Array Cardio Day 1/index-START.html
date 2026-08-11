@@ -83,6 +83,10 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    function alphabetical(arr){
+      return arr.sort((a, b) => a.last > b.last ? 1 : -1);
+    }
+    console.log(alphabetical(inventors));
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
