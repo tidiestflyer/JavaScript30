@@ -42,6 +42,10 @@
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
+    function idFinder(arr, find) {
+      return arr.find((item) => find == item.id);
+    };
+    console.log(idFinder(comments, 823423));
 
     // Array.prototype.findIndex()
     // Find the comment with this ID
